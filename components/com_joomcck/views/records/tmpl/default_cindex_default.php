@@ -33,7 +33,7 @@ $cols = $params->get('tmpl_params.cat_cols', 3);
 $rows = count($cats) / $params->get('tmpl_params.cat_cols',  3);
 $rows = ceil($rows);
 $ind = 0;
-$span = array(1=>12,2=>6,3=>4,4=>3,6=>12);
+$span = array(1=>12,2=>6,3=>4,4=>3,6=>2);
 $api = new JoomcckApi();
 ?>
 
